@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Student Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-content">
+            <div class="profile-img-container">
+                <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Saldivar Portfolio\picture\b93cae9e-b86d-4126-98ef-d3bc183a0c9f.jpg" alt="Christian Saldivar" class="profile-img">
+            </div>
+            <h1 class="hero-title">Hello, I'm Christian Saldivar</h1>
+            <p class="hero-subtitle">BSIT Student | Aspiring Developer</p>
+            <blockquote class="motto">
+                "Leave one wolf alive, and the sheeps are never safe" by Arya Stark"
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="info-card">
+                <h3><i class="fas fa-user-circle"></i> Personal Information</h3>
+                <div class="info-item"><strong>Full Name:</strong> Christian Bill Sanchez Saldivar</div>
+                <div class="info-item"><strong>Age:</strong> 21</div>
+                <div class="info-item"><strong>Address:</strong> P2 Mahayahay A Osmena Tagbina Surigao Del Sur</div>
+                <div class="info-item"><strong>Course & Year:</strong> Bachelor of Science in Information Technology - [Year Level]</div>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-book-open"></i> About</h3>
+                <p class="bio-text">
+                    I am Christian Saldivar, a BS Information Technology student who is passionate about technology, programming, and web development. I enjoy learning new skills, solving problems, and improving my knowledge to prepare for a successful career in the IT industry.
+                </p>
+            </div>
+            <div class="info-card" style="grid-column: span 2;">
+                <h3><i class="fas fa-rocket"></i> Career Goals</h3>
+                <p class="bio-text">
+                    My goal is to become a Full-Stack Web Developer or Software Engineer within the next 10 years. I aim to continuously improve my skills, gain professional experience, and create innovative solutions through technology.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title">Educational Background</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">2016 - 2017</span>
+                    <h4>Elementary</h4>
+                    <p>Osmena Integrated School</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">2021 - 2022</span>
+                    <h4>High School</h4>
+                    <p>Osmena Integrated School</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">2023 - 2024</span>
+                    <h4>Senior High School</h4>
+                    <p>Tagbina National HighSchool- [Strand]</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">2026 - Present</span>
+                    <h4>College</h4>
+                    <p>De LaSalle John Bosco College<br>Bachelor of Science in Information Technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Photo/Video Editing</span>
+                    <span class="skill-tag">Programming</span>
+                    <span class="skill-tag">Networking</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">HTML/CSS</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Software Applications</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Microsoft Office</span>
+                    <span class="skill-tag">Visual Studio</span>
+                    <span class="skill-tag">Git/GitHub</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Adobe Photoshop</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Teamwork</span>
+                    <span class="skill-tag">Time Management</span>
+                    <span class="skill-tag">Critical Thinking</span>
+                    <span class="skill-tag">Adaptability</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="info-card" style="text-align: center; max-width: 600px; margin: 0 auto;">
+            <i class="fas fa-folder-open" style="font-size: 4rem; color: var(--text-muted); margin-bottom: 1rem;"></i>
+            <p class="bio-text" style="font-size: 1.5rem; font-weight: 600;">None</p>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates">
+        <h2 class="section-title">Certificates & Achievements</h2>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h4>DICT SEMINAR</h4>
+                <p>Training/Seminar</p>
+                <span class="date">2025</span>
+            </div>
+            <div class="certificate-card">
+                <i class="fas fa-certificate"></i>
+                <h4>CEAP REGIONAL DANCE SPORTS ATHLETE</h4>
+                <p>Certificate Earned</p>
+                <span class="date">2026</span>
+            </div>
+            <div class="certificate-card">
+                <i class="fas fa-trophy"></i>
+                <h4>None</h4>
+                <p>Academic Award</p>
+                <span class="date">-</span>
+            </div>
+            <div class="certificate-card">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h4>DANCE WORKSHOP</h4>
+                <p>Workshop Attended</p>
+                <span class="date">2026</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        
+        <!-- Personal Photos Category -->
+        <div class="gallery-category">
+            <h3 class="category-title"><i class="fas fa-camera"></i> Personal Photos</h3>
+            <div class="category-photos">
+                <div class="gallery-item">
+                    <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Saldivar Portfolio\picture\d5f837de-f2f1-4266-b705-b159ea65cdf6.jpg" alt="Personal Photo 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Personal Photo 1</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Saldivar Portfolio\picture\c1fa5196-7dc4-406a-9763-48e2463e5449.jpg" alt="Personal Photo 2" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Personal Photo 2</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Saldivar Portfolio\picture\bfdfea3f-daae-4ed0-a542-823080961d99.jpg" alt="Personal Photo 3" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Personal Photo 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- School Activity Category -->
+        <div class="gallery-category">
+            <h3 class="category-title"><i class="fas fa-school"></i> School Activity</h3>
+            <div class="category-photos">
+                <div class="gallery-item">
+                    <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Saldivar Portfolio\picture\0f250cc0-c29c-4e8d-ad63-2138f23f2a86.jpg" alt="School Activity 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>School Activity 1</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Saldivar Portfolio\picture\b7d07021-469f-4bd3-8949-86d0b38cb70d.jpg" alt="School Activity 2" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>School Activity 2</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Saldivar Portfolio\picture\cf3dca07-146a-4c00-93c0-c3fed67fce43.jpg" alt="School Activity 3" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>School Activity 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Organization Activity Category -->
+        <div class="gallery-category">
+            <h3 class="category-title"><i class="fas fa-users-cog"></i> Organization Activity</h3>
+            <div class="category-photos">
+                <div class="gallery-item">
+                    <img src="placeholder-org-1.jpg" alt="Organization Activity 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Organization Activity 1</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="placeholder-org-2.jpg" alt="Organization Activity 2" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Organization Activity 2</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="placeholder-org-3.jpg" alt="Organization Activity 3" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Organization Activity 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Community Involvement Category -->
+        <div class="gallery-category">
+            <h3 class="category-title"><i class="fas fa-hands-helping"></i> Community Involvement</h3>
+            <div class="category-photos">
+                <div class="gallery-item">
+                    <img src="placeholder-community-1.jpg" alt="Community Involvement 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Community Involvement 1</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="placeholder-community-2.jpg" alt="Community Involvement 2" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Community Involvement 2</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="placeholder-community-3.jpg" alt="Community Involvement 3" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span>Community Involvement 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-container">
+            <div class="info-card">
+                <h3><i class="fas fa-download"></i> Download Resume</h3>
+                <p class="bio-text" style="margin-bottom: 1.5rem;">Get a copy of my complete resume in PDF format.</p>
+                <button class="download-btn" onclick="downloadResume()">
+                    <i class="fas fa-file-download"></i>
+                    Download CV (PDF)
+                </button>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                <p class="bio-text" style="text-align: center; font-size: 1.5rem; font-weight: 600;">None</p>
+            </div>
+            <div class="info-card" style="grid-column: span 2;">
+                <h3><i class="fas fa-address-book"></i> References</h3>
+                <p class="bio-text">Available upon request.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:your.email@example.com">Christiansaldivar@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Mobile</strong>
+                            <a href="tel:+639123456789">+63 912 345 6789</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="submitForm(event)">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="footer-text">
+                &copy; <span id="currentYear"></span> [Your Name]. All rights reserved.
+            </p>
+            <p class="footer-text last-updated">
+                Last Updated: <span id="lastUpdated"></span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
