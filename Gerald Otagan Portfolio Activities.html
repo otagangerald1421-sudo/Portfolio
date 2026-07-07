@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerald Otagan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Geometric Overlay Design -->
+    <div class="geometric-overlay">
+        <!-- Top Left Line -->
+        <div class="overlay-line" style="top: 5%; left: -5%; width: 300px; height: 8px; transform: rotate(45deg);"></div>
+        <!-- Top Right Large Circle -->
+        <div class="overlay-circle" style="top: 10%; right: 15%; width: 150px; height: 150px; border-width: 8px;"></div>
+        <!-- Middle Right Line -->
+        <div class="overlay-line" style="top: 25%; right: -5%; width: 400px; height: 8px; transform: rotate(-45deg);"></div>
+        <!-- Middle Right Small Square -->
+        <div class="overlay-square" style="top: 28%; right: 20%; width: 80px; height: 80px; border-width: 6px;"></div>
+        <!-- Bottom Left Large Square -->
+        <div class="overlay-square" style="bottom: 15%; left: 10%; width: 140px; height: 140px; border-width: 8px; transform: rotate(15deg);"></div>
+        <!-- Bottom Left Line -->
+        <div class="overlay-line" style="bottom: 20%; left: -5%; width: 350px; height: 8px; transform: rotate(-45deg);"></div>
+        <!-- Bottom Center Circle -->
+        <div class="overlay-circle" style="bottom: 8%; left: 48%; width: 60px; height: 60px; border-width: 6px;"></div>
+        <!-- Bottom Right Line -->
+        <div class="overlay-line" style="bottom: 10%; right: -5%; width: 250px; height: 8px; transform: rotate(45deg);"></div>
+        <!-- Decorative Dots -->
+        <div class="overlay-dots" style="top: 40%; left: 15%;"></div>
+        <div class="overlay-dots" style="top: 80%; right: 20%;"></div>
+        <div class="overlay-dots" style="top: 15%; right: 5%;"></div>
+    </div>
+    
+    <div class="layout-wrapper">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">Personal Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Educational</a></li>
+                    <li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+
+                    <li><a href="#achievements">Certificates</a></li>
+
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-cta">
+                <h4>Let's Connect!</h4>
+                <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Me</button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+
+
+            <!-- Home Section -->
+            <section id="home" class="section">
+                <div class="container">
+                    <div class="home-content">
+                        <div class="home-text">
+                            <p class="greeting">Hello, I'm</p>
+                            <h1>Gerald <span>Otagan</span></h1>
+                            <p class="role">BSIT Student</p>
+                            <p class="description">Welcome to my student portfolio! Here, you'll find my academic journey, skills, and achievements. I believe that "Small steps every day lead to big achievements." Thank you for visiting!</p>
+                            <div class="home-buttons">
+                                <button class="btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View My Work</button>
+
+                            </div>
+                        </div>
+                        <div class="home-image">
+                            <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Gerald Portfolio\pictures\profile.jpg" alt="Gerald Otagan" class="profile-photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Me Section -->
+            <section id="about" class="section">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <div class="card">
+                        <div class="about-info">
+                            <p><strong>Full Name:</strong> Gerald Tiempo Otagan</p>
+                            <p><strong>Age:</strong> 21</p>
+                            <p><strong>Address:</strong> P4A Tabon Sugala St. Bislig City</p>
+                            <p><strong>Course and Year Level:</strong> Bachelor of Science in Information Technology - 1st Year</p>
+                            <h3>Short Biography</h3>
+                            <p>I'm a dedicated student passionate about technology and programming. I enjoy learning new skills and working on innovative projects.</p>
+                            <h3>Career Goals</h3>
+                            <p>To become a successful software developer and contribute to impactful projects that make a difference in people's lives.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <div class="container">
+                    <h2>Educational Background</h2>
+                    <div class="education-list">
+                        <div class="education-item">
+                            <h3>Elementary School</h3>
+                            <p>Plaza Central Elementary School</p>
+                            <p>Year Graduated: 2016</p>
+                        </div>
+                        <div class="education-item">
+                            <h3>High School</h3>
+                            <p>Tabon Maximino Estrella National High School</p>
+                            <p>Year Graduated: 2020</p>
+                        </div>
+                        <div class="education-item">
+                            <h3>Senior High School</h3>
+                            <p>Andres Soriano Colleges of Bislig</p>
+                            <p>Year Graduated: 2022</p>
+                        </div>
+                        <div class="education-item">
+                            <h3>College (Current)</h3>
+                            <p>De La Salle John Bosco College</p>
+                            <p>Expected Graduation: 2029</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="container">
+                    <h2>Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Technical Skills</h3>
+                            <ul>
+                                <li>Photo/Video Editing</li>
+                                <li>Problem Solving</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Programming Languages</h3>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>HTML/CSS</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Software Applications</h3>
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>Git/GitHub</li>
+                                <li>Microsoft Office</li>
+                                <li>Canva</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Soft Skills</h3>
+                            <ul>
+                                <li>Communication</li>
+                                <li>Teamwork</li>
+                                <li>Time Management</li>
+                                <li>Adaptability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+
+                <div class="container">
+                    <h2>Projects</h2>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <h3>None</h3>
+                            </div>
+                            <div class="project-card">
+                                <h3>None</h3>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <!-- Achievements Section -->
+            <section id="achievements" class="section">
+                <div class="container">
+                    <h2>Certificates</h2>
+                    <div class="achievements-list">
+                        <div class="achievement-item">
+                            <h3>Trainings Attended</h3>
+                            <ul>
+                                <li>Networking COC 1</li>
+                            </ul>
+                        </div>
+                        <div class="achievement-item">
+                            <h3>Seminars</h3>
+                            <ul>
+                                <li>Outreach</li>
+                            </ul>
+                        </div>
+                        <div class="achievement-item">
+                            <h3>Certificates Earned</h3>
+                            <ul>
+                                <li>Outreach Certificate</li>
+                                <li>NC2 Electrical Passer</li>
+                            </ul>
+                        </div>
+                        <div class="achievement-item">
+                            <h3>Academic Awards</h3>
+                            <ul>
+                                <li>None</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="section">
+                <div class="container">
+                    <h2>Gallery</h2>
+                    
+                    <div class="gallery-tabs">
+                        <button class="gallery-tab active" data-tab="personal">Personal Photos</button>
+                        <button class="gallery-tab" data-tab="school">School Activities</button>
+                        <button class="gallery-tab" data-tab="organizational">Organizational Activities</button>
+                        <button class="gallery-tab" data-tab="community">Community Involvement</button>
+                    </div>
+
+                    <div class="gallery-category active" id="personal">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Gerald Portfolio\pictures\497724025_677174295104805_7141427015234705646_n.jpg" alt="Personal Photo 1">
+                                <p>Personal Photo 1</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Gerald Portfolio\pictures\599768854_845304054958494_6750689979861229885_n.jpg" alt="Personal Photo 2">
+                                <p>Personal Photo 2</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Gerald Portfolio\pictures\654263677_917843954371170_1923175384053792034_n.jpg" alt="Personal Photo 3">
+                                <p>Personal Photo 3</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-category" id="school">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Gerald Portfolio\pictures\b9e472f2-ecae-4dd3-bdab-84dea5ff2c74.jpg" alt="School Activity 1">
+                                <p>School Activity 1</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Gerald Portfolio\pictures\551883335_1908926900040065_4724283167531553269_n.jpg" alt="School Activity 2">
+                                <p>School Activity 2</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="C:\Users\GERALD OTAGAN - PC\Documents\trae_projects\Gerald Portfolio\pictures\8c58c3f3-2d15-4b30-a405-5898b69d2bd4 copy.jpg" alt="School Activity 3">
+                                <p>School Activity 3</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-category" id="organizational">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <p>Organizational Activity 1: None</p>
+                            </div>
+                            <div class="gallery-item">
+                                <p>Organizational Activity 2: None</p>
+                            </div>
+                            <div class="gallery-item">
+                                <p>Organizational Activity 3: None</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-category" id="community">
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <p>Community Involvement 1: None</p>
+                            </div>
+                            <div class="gallery-item">
+                                <p>Community Involvement 2: None</p>
+                            </div>
+                            <div class="gallery-item">
+                                <p>Community Involvement 3: None</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="container">
+                    <h2>Contact Me</h2>
+                    <div class="card">
+                        <div class="contact-info">
+                            <p><strong>Email Address:</strong> Jijaygeotagan@gmail.com</p>
+                            <p><strong>Mobile Number:</strong> +639661749492</p>
+                            <p><strong>Facebook Profile:</strong> <a href="https://www.facebook.com/ge.rald.3072" target="_blank">Ge rald</a></p>
+                            <p><strong>Instagram:</strong> <a href="#">@grldtgn</a></p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div class="container">
+                    <p>&copy; 2024 Gerald Tiempo Otagan. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ge.rald.3072" target="_blank">Facebook</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                    <p class="last-updated">Last Updated: July 2024</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        // Gallery Tabs
+        const tabs = document.querySelectorAll('.gallery-tab');
+        const categories = document.querySelectorAll('.gallery-category');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs and categories
+                tabs.forEach(t => t.classList.remove('active'));
+                categories.forEach(c => c.classList.remove('active'));
+
+                // Add active class to clicked tab and corresponding category
+                tab.classList.add('active');
+                const tabId = tab.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // Smooth scroll and active state for sidebar links
+        document.querySelectorAll('.sidebar nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                // Remove active from all sidebar links
+                document.querySelectorAll('.sidebar nav a').forEach(a => a.classList.remove('active'));
+                // Add active to clicked link
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
